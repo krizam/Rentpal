@@ -31,6 +31,10 @@ function Header() {
             <li className='hover:text-red-600 cursor-pointer'>Sign In</li>
 
             </Link>
+
+            <Link to='/rooms'>
+              <li className='hover:text-red-600 cursor-pointer'>Rooms</li>
+            </Link>
         </ul>
         </div>
     </header>

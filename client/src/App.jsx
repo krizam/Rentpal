@@ -6,6 +6,9 @@ import Signin from './Pages/Signin'
 import Profile from './Pages/Profile'
 import Header from './Component/Header'
 import About from './Pages/About'
+import Rooms from './Pages/Rooms'
+import Bookings from './Pages/Bookings'
+import Dashboard from './Pages/Dashboard'
 
 function App() {
   return (
@@ -17,10 +20,10 @@ function App() {
       <Route path="/signup" element={<Signup />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/about" element={<About />} />
-       
-      
+      <Route path="/rooms" element={<Rooms/>} />
+      <Route path="/bookings" element={<Bookings/>} />
+      <Route path="/admin/dashboard" element={<Dashboard/>} />
     </Routes>
-    
     </BrowserRouter>
   )
 }
